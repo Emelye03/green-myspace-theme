@@ -1,0 +1,219 @@
+body {
+    background: #cde2b8;
+    font-family: monospace;
+    padding-top: 45px;
+    font-size: 15px;
+
+}
+
+img {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-orientation: from-image;
+    border-radius: 10px;
+}
+
+.avatar {
+    width: 200px;
+    margin-right: 20px;
+    cursor: zoom-in;
+    image-orientation: from-image;
+    border-radius: 10px;
+    border: solid 2px #636b59;
+}
+
+.boxInfo {
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.boxHead {
+    background: #636b59;
+    color: #ffcbd9;
+    padding: 3px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    border-radius: 5px;
+}
+
+.box.blurbs {
+    background-color: #aabd97;
+    border-radius: 10px;
+}
+
+.rightHead {
+    background: #636b59;
+    color: #ffcbd9;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-radius: 5px;
+}
+
+.topLeft {
+    position: sticky;
+    top: 0;
+    float: left;
+    width: calc( 40% - 20px );
+    padding: 10px;
+    background-color: #aabd97;
+    border-radius: 10px;
+}
+
+.topRight {
+    float: right;
+    width: calc( 60% - 60px );
+    padding: 10px;
+    background-color: #aabd97;
+    border-radius: 10px;
+}
+
+.extended {
+    border: 1px solid #000;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.blurbs {
+    margin-bottom: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+h4 {
+    color: #314a5a;
+    margin-bottom: 0px;
+}
+
+.fwiendCount {
+    color: #314a5a;
+}
+
+.boxButton {
+    display: inline-block;
+    width: calc( 49% - 60px );
+    padding-left: 30px;
+    height: 24px;
+    font-size: small;
+    color: black;
+    padding-top: 7px;
+    border-radius: 10px;
+}
+
+.fwiendFace img {
+    border: solid 2px #636b59;
+    border-radius: 50%;
+    background-position: center;
+    display: absolute;
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+}
+
+.friendRequests{
+	display: inline-grid;
+	width: 43%;
+	background: #aabd97;
+	padding: 10px;
+	border: 3px solid #636b59;
+	max-width: calc( 25% - 85px );
+	text-align: center;
+}
+
+.allfwiedsItem{
+	max-width: calc( 25% - 85px );
+	display: inline-grid;
+	background: #aabd97;
+	border: 6px solid #636b59;
+	padding: 10px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.allfwiedsItemTop{
+	background: #aabd97;
+}
+
+div#header {
+    background: #aabd97;
+    text-align: center !important;
+    color: white;
+    font-family: monospace;
+}
+
+div#hSub {
+    background: #636b59;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+}
+
+.url {
+    border: solid 2px #636b59;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.tableLeft {
+    background: #cde2b8;
+    width: 25%;
+    padding: 10px;
+    vertical-align: top;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.tableRight {
+    width: 75%;
+    background: #cde2b8;
+    padding: 10px;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+    border-radius: 10px;
+    border: solid 2px #636b59;
+}
+
+.player {
+    padding: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #636b59;
+    color: #ffcbd9;
+    width: calc(100% - 10px );
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+
+a:-webkit-any-link {
+    color: #314a5a;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.blog {
+    background-color: #aabd97;
+    padding: 15px;
+}
+
+span#hUp::before {
+    content: "hot milfs in your area";
+    font-size: 13px;
+    animation-duration: 0.3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: blinkingTextRed;
+    font-family: monospace;
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-4/nat323.ani), url(https://cur.cursors-4u.net/nature/nat-4/nat323.png), auto !important;} /* End https://www.cursors-4u.com */
